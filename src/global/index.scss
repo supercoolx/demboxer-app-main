@@ -1,0 +1,253 @@
+/*
+  common styles
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p, span, h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-icon-list {
+  display: flex;
+  align-items: center;
+
+  img {
+    cursor: pointer;
+    width: 23px;
+    height: 28px;
+
+    &:first-child {
+      margin-right: 5px;
+    }
+  }
+}
+
+.fill-btn {
+  background: #3772FF !important;
+  height: 48px;
+
+  span {
+    text-transform: initial;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+}
+
+.white-btn {
+  background: #141416 !important;
+  border: 1.5px solid #E6E9EC !important;
+  height: 48px;
+
+  span {
+    text-transform: initial;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+}
+
+@mixin custom-input {
+  outline: none;
+  border: 1.5px solid #777E90;
+  border-radius: 5px;
+  background: #141416;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  box-sizing: border-box;
+}
+.custom-input {
+  @include custom-input;
+}
+
+.component-header-section {
+  text-align: center;
+
+  > span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #646A79;
+  }
+
+  > h2 {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  > button {
+    margin-top: 25px;
+    width: 182px;
+    height: 48px;
+    mix-blend-mode: normal;
+    border: 1.5px solid #636467 !important;
+    border-radius: 20px;
+
+    > span {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: -0.2px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.form-control {
+  position: relative;
+  margin-bottom: 30px !important;
+  label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #646A79;
+    text-transform: uppercase;
+  }
+  input {
+    width: 100%;
+    @include custom-input;
+    margin-top: 10px;
+  }
+  p {
+    color: #bf1650;
+    font-size: 12px;
+  }
+}
+
+.btn-text {
+  background: transparent;
+  span {
+    color: #0091FF;
+    text-transform: initial;
+    font-weight: bold;
+    font-size: 14px
+  }
+}
+
+.custom-check-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .MuiCheckbox-root {
+    padding-left: 0px;
+  }
+
+  .check-box {
+    color: #3772FF !important;
+  }
+
+  > p {
+    margin: 0 0 0 11px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #646A79;
+    user-select: none;
+  }
+
+  svg {
+    color: #3772FF;
+    width: 32px;
+    height: 32px;
+  }
+
+  .MuiIconButton-label {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+  }
+  .Mui-checked {
+    .MuiIconButton-label {
+      background: white;
+    }
+  }
+  
+}
+
+/** PopUp customize **/
+.customize-popup {
+  .MuiDialog-paper {
+    background: transparent;
+
+    .popup-content {
+      width: 448px;
+      padding: 37px 30px;
+      background: #141416;
+      border-radius: 20px;
+
+      @media (max-width: 576px) {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .title-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .title {
+          font-family: 'Poppins', sans-serif;
+          font-weight: 600;
+          font-size: 24px;
+          color: #FFFFFF;
+        }
+
+        button {
+          border: 1px solid;
+          border: 1px solid #646A79;
+          box-sizing: border-box;
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.filter-btn-section {
+  text-transform: initial;
+  img {
+    margin-right: 5px;
+  }
+
+  span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+    color: #777E90;
+  }
+}
+
+.pagination {
+  .MuiTablePagination-caption, .MuiSelect-selectMenu, svg {
+    color: #777E90;
+  }
+
+  .Mui-disabled {
+    svg {
+      color: #28292e;
+    }
+  }
+}

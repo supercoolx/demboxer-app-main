@@ -1,0 +1,104 @@
+/*
+sent-bids
+*/
+
+.sent-bids {
+  position: relative;
+
+  .filter-btn-section {
+    text-transform: initial;
+    position: absolute;
+    right: 0px;
+    top: -65px;
+
+    @media (max-width: 600px) {
+      top: -40px;
+    }
+  }
+  > div {
+    padding: 5px;
+  
+    @media (max-width: 1270px) {
+      overflow: auto;
+    }
+
+    > div {
+      min-width: 900px;
+      width: 100%;
+      .table-row {
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        height: 50px;
+        box-sizing: border-box;
+
+        > div {
+          box-sizing: border-box;
+          user-select: none;
+          padding: 5px 20px;
+          display: flex;
+          align-items: center;
+          width: 22%;
+
+          span {
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+            color: #FFFFFF;
+          }
+          img {
+            margin-left: 10px;
+          }
+        }
+
+        &.table-header-section {
+          background: #28292e;
+          margin-bottom: 15px;
+
+          .transaction {
+            justify-content: space-between;
+          }
+        }
+
+        &.table-body-section {
+          background: #1C1C1F;
+          margin-bottom: 5px;
+          transition: all 0.3s;
+
+          &:hover {
+            transform: scale(1.02);
+          }
+
+          > div {
+            padding: 15px 20px;
+
+            span {
+              font-size: 13px;
+            }
+
+            .status-color-block {
+              margin-right: 13px;
+              min-width: 12px;
+              min-height: 12px;
+              border-radius: 3px;
+              background: #2FD400;
+            }
+          }
+        }
+        .last-bid-price {
+          width: 19%;
+        }
+        .etherscan-hyperlink {
+          width: 24%;
+        }
+        .status {
+          width: 25%;
+        }
+        .identity {
+          width: 10%;
+        }
+      }
+    }
+  }
+
+  
+}

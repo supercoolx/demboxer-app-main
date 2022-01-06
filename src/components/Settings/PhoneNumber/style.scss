@@ -1,0 +1,70 @@
+.phone-input-container {
+  margin-top: 20px !important;
+
+  label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #646A79;
+  }
+
+    .react-tel-input {
+      margin-top: 10px;
+      .form-control {
+        border-radius: 14px;
+        width: 100%;
+        background: #141416;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        border: 1.5px solid #777E90;
+        height: 48px;
+        box-sizing: border-box;
+      }
+
+      .flag-dropdown {
+        border-top-left-radius: 14px;
+        border-bottom-left-radius: 14px;
+        background: transparent;
+        border: 1.5px solid #777E90;
+      }
+
+      .selected-flag {
+        background: transparent !important;
+      }
+
+      .country-list {
+        width: 445px;
+
+        @media (max-width: 1024px) {
+          width: 350px;
+        }
+        @media (max-width: 768px) {
+          width: 253px;
+        }
+        @media (max-width: 414px) {
+          width: 378px;
+        }
+        @media (max-width: 375px) {
+          width: 342px;
+        }
+      }
+    }
+
+    // input {
+    //   border: none;
+    //   border-radius: 14px !important;
+    //   width: 100%;
+    //   outline: none;
+    //   background: #141416;
+    //   font-family: 'Poppins', sans-serif;
+    //   font-weight: 500;
+    //   font-size: 14px;
+    //   color: #FFFFFF;
+    //   padding: 15px 0px 15px 15px;
+    //   height: 48px;
+    //   box-sizing: border-box;
+    // }
+}

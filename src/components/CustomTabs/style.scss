@@ -1,0 +1,29 @@
+/*
+Custom tabs
+*/
+
+.tabs-list {
+  padding-bottom: 35px;
+
+  button {
+    padding: 7px 23px;
+    margin-right: 15px;
+    text-transform: initial;
+    border-radius: 17px;
+    transition: all 0.3s;
+    
+    &.active {
+      background: #FFFFFF;
+      span {
+        color: #141416;
+      }
+    }
+
+    span {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #808080
+    }
+  }
+}

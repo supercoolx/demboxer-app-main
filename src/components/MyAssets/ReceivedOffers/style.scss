@@ -1,0 +1,31 @@
+/*
+received-offers
+*/
+
+.received-offers {
+  padding: 70px 0 300px 0;
+
+  img {
+    width: 100%;
+  }
+
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 25px;
+  }
+
+  .description {
+    margin-top: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #777E90;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+}

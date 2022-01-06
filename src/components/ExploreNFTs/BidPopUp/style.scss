@@ -1,0 +1,105 @@
+/*
+Bid PopUp
+*/
+.customize-popup {
+
+    .bid-popup-content {
+
+      .title-section {
+
+        button {
+          border: 1px solid;
+          border: 1px solid #646A79;
+          box-sizing: border-box;
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          color: white;
+          background: #FFFFFF;
+        }
+      }
+
+      .author-title {
+        margin-top: 38px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #6D7578;
+        opacity: 0.5;
+      }
+
+      .description {
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        color: #646A79;
+        font-weight: 300;
+        font-size: 14px;
+      }
+
+      .payment-method-title {
+        margin: 40px 0 20px 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        color: #FFF7F7;
+      }
+
+      .payment-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        
+        > div {
+          display: flex;
+          align-items: center;
+
+          img {
+            margin-right: 30px;
+          }
+
+          .card-number {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+          }
+        }
+
+        .balance {
+          font-family: 'Poppins', sans-serif;
+          font-weight: bold;
+          font-size: 13px;
+          text-align: right;
+          text-transform: uppercase;
+          color: #6D7578;
+          opacity: 0.5;
+        }
+      }
+
+      .MuiDivider-root {
+        background: #D8D8D8;
+      }
+
+      .btn-section {
+        margin-top: 45px;
+        .fill-btn {
+          width: 100%;
+          border-radius: 24px;
+
+          &.buy-now-btn {
+            background: #363945 !important;
+            margin-top: 20px;
+          }
+
+          span {
+            font-weight: 600;
+          }
+        }
+      }
+
+
+    }
+
+}

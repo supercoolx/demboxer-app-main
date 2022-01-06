@@ -1,0 +1,17 @@
+/*
+explore-NFTs
+*/
+
+.explore-NFTs {
+  position: relative;
+  .filter-btn-section {
+    text-transform: initial;
+    position: absolute;
+    right: 0px;
+    top: -80px;
+
+    @media (max-width: 600px) {
+      top: -15px;
+    }
+  }
+}

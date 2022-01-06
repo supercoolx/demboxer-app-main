@@ -1,0 +1,64 @@
+/*
+repositories
+*/
+
+.repositories {
+  padding-bottom: 60px;
+  .repositories-item {
+    > div {
+      border: 2px solid #B4C3C9;
+      box-sizing: border-box;
+      border-radius: 23px;
+      padding: 30px;
+
+      .git-file {
+        display: flex;
+        align-items: center;
+
+        img {
+          margin-right: 10px;
+        }
+
+        a {
+          font-family: 'Poppins', sans-serif;
+          font-weight: 600;
+          font-size: 17px;
+          color: #0091FF;
+        }
+      }
+
+      .description {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        color: #777E90;
+      }
+
+      .detail {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        > div {
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          flex-wrap: nowrap;
+          margin-right: 7px;
+          
+          img {
+            margin-right: 7px;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 12px;
+            color: #6D7278;
+          }
+        }
+
+      }
+    }
+  }
+}

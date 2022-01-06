@@ -1,0 +1,76 @@
+/*
+register
+*/
+
+.register {
+  background: #141416;
+  padding: 60px 0 73px 0;
+
+  .content {
+    padding-top: 68px;
+
+    .player-section {
+      > div {
+        position: relative;
+        width: 90%;
+        height: 100%;
+        @media (max-width: 1280px) {
+          width: 100%;
+        }
+        @media (max-width: 960px) {
+          height: 350px;
+        }
+
+        iframe {
+          border-radius: 25px;
+        }
+      }
+    }
+
+    .login-content {
+      > form {
+        .title {
+          font-weight: 600;
+          font-size: 30px;
+          color: #FFFFFF;
+          margin-bottom: 37px;
+        }
+
+        .fill-btn {
+          margin-top: 40px;
+          border-radius: 20px;
+          width: 182px;
+          height: 48px;
+          span {
+            font-weight: 600;
+          }
+        }
+
+        .forgot-password {
+          margin-top: 38px;
+          color: #646A79;
+          text-decoration-line: underline;
+          text-transform: initial;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 500;
+          font-size: 14px;
+        }
+
+        .form-control {
+          display: flex;
+          flex-direction: column;
+          
+          input {
+            width: 80%;
+
+            @media (max-width: 768px) {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+}

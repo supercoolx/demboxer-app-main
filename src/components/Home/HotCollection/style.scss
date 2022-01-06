@@ -1,0 +1,80 @@
+/*
+ Hot collection
+ */
+
+ .hot-collection {
+  background: #22262F;
+  padding: 147px 0 135px 0;
+
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+    margin-bottom: 68px;
+  }
+
+  .gallery-section {
+    .gallery-item {
+      > img {
+        width: 100%;
+        border-radius: 10px;
+      }
+
+      .image-list {
+        > div {
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .title {
+        margin: 10px 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        color: #FFFFFF;
+      }
+
+      .user-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+          border: 1px solid #FFFFFF;
+          box-sizing: border-box;
+          height: 24px;
+          border-radius: 4px;
+          background: transparent;
+          span {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 10px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+          }
+        }
+        .user-image-section {
+          display: flex;
+          align-items: center;
+
+          img {
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+ }

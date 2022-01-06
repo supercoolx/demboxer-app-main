@@ -1,0 +1,86 @@
+/*
+explore Item
+*/
+
+.explore-item {
+  > div {
+    margin-bottom: 30px;
+
+    > img {
+      border-radius: 15px;
+      width: 100%;
+      min-height: 300px;
+    }
+
+    .title-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      > span {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+
+      svg {
+        color: #FFFFFF;
+      }
+    }
+
+    .description {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-size: 12px;
+      color: #777E90;
+      margin-bottom: 10px;
+    }
+
+    .MuiDivider-root {
+      background: #D8D8D8;
+    }
+
+    .btn-text {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 5px 0;
+      margin-bottom: 15px;
+    }
+
+    .details-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+
+      p:first-child {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        color: #A3A8AD;
+        text-transform: uppercase;
+      }
+      p:last-child {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        text-align: right;
+        color: #FFFFFF;
+      }
+    }
+
+    .btn-section {
+      padding-top: 15px;
+
+      .fill-btn {
+        width: 100%;
+        border-radius: 24px;
+      }
+    }
+    
+  }
+ 
+}

@@ -1,0 +1,126 @@
+/*
+Layout
+*/
+
+.layout {
+  background: #141416;
+  padding-top: 52px;
+
+  .layout-header {
+
+    > span {
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      font-size: 15px;
+      color: #646A79;
+    }
+
+    .title {
+      margin: 5px 0 0 0;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 38px;
+      color: #FFFFFF;
+    }
+
+    > p {
+      width: 55%;
+      margin: 20px 0 0 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      color: #777E90;
+      @media (max-width: 1250px) {
+        width: 100%;
+      }
+    }
+
+    .developers-section {
+      a {
+        color: #0091FF;
+      }
+      display: flex;
+      flex-wrap: wrap;
+      > div {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+      }
+      img {
+        margin-right: 10px;
+      }
+      p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+    }
+
+    .verified {
+      border: 1px solid #5FB009;
+      box-sizing: border-box;
+      border-radius: 17.5px;
+      width: 103px;
+      height: 35px;
+      margin-left: 30px;
+
+      span {
+        text-transform: initial;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #5FB009;
+      }
+    }
+  }
+
+  .router-content-section {
+    margin-top: 80px;
+
+    .router-list {
+
+      .MuiListItem-root {
+        svg {
+          color: #646A79;
+        }
+        &.active {
+          .MuiListItemText-root {
+            span {
+              color: #FFFFFF;
+            }
+          }
+          svg {
+            color: #FFFFFF;
+          }
+        }
+
+        .MuiListItemIcon-root {
+          min-width: 50px;
+        }
+
+        .MuiListItemText-root {
+          span {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            color: #646A79;
+          }
+        }
+
+      }
+
+      .MuiCollapse-container {
+        .MuiListItemText-root {
+          &.active {
+            span {
+              color: #3772FF;
+            }
+          }
+        }
+      }
+
+      .MuiListItem-gutters {
+        padding-left: 0px;
+      }
+    }
+  }
+}

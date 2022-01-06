@@ -1,0 +1,196 @@
+/*
+  Header
+*/
+
+.header {
+  background: #141416;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid #292B33;
+
+  .container {
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;    
+      align-items: center;
+      height: 70px;
+
+      .logo-section {
+        display: flex;
+        align-items: center;
+
+        .header-logo {
+          cursor: pointer;
+          margin-left: 40px;
+          box-sizing: border-box;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 140px;
+          height: 19.36px;
+          @media (max-width: 685px) {
+            display: none;
+          }
+        }
+
+        .divider {
+          margin-left: 40px;
+          margin-right: 32px;
+          width: 2px;
+          height: 30px;
+          background: #D8D8D8;
+          border-radius: 1px;
+          @media (max-width: 768px) {
+            display: none;
+          }
+        }
+      }
+
+      .action-section {
+        display: flex;
+        align-items: center;
+
+        .bage {
+          margin: 0 41px 0 35px;
+          cursor: pointer;
+
+          @media (max-width: 576px) {
+            margin: 0 25px 0 10px;
+          }
+          img {
+            width: 18px;
+            height: 19px;
+          }
+          span {
+            min-width: 13px;
+            width: 13px;
+            height: 13px;
+            font-size: 11px;
+            background: #45B26B;
+            color: white;
+            border-radius: 50%;
+            left: 10px;
+          }
+        }
+
+        .user-profile {
+          position: relative;
+          cursor: pointer;
+
+          .profile-content {
+            display: flex;
+            padding-left: 10px;
+            padding-right: 10px;
+            align-items: center;
+            height: 34px;
+            border-radius: 17px;
+            border: 1.5px solid #363945;
+
+            .photo {
+              width: 25px;
+              height: 25px;
+              margin-right: 10px;
+            }
+  
+            .meta-index {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 14px;
+              color: #FFFFFF;
+  
+              .type {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                color: #45B26B;
+              }
+            }
+          }
+
+
+          .logout-dropdown {
+            position: absolute;
+            width: 100%;
+            background: #141416;
+            border: 1.5px solid #363945;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 100%;
+            left: 0px;
+            color: #FFFFFF;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 2px;
+            box-sizing: border-box;
+            transition: all 0.2s;
+            svg {
+              margin-right: 10px;
+              font-size: 19px;
+            }
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 14px;
+            }
+            &:hover {
+              background: #363945;
+            }
+          }
+        }
+
+        button {
+          height: 34px;
+          box-sizing: border-box;
+          border-radius: 17px;
+          &.login {
+            width: 80px;
+            margin-right: 15px;
+          }
+          &.register {
+            width: 90px;
+          }
+        }
+      }
+    }
+
+  }
+
+  .search-block {
+    position: relative;
+
+    input {
+      font-family: 'Poppins', sans-serif;
+      padding: 0 33px 0 26px;
+      height: 34px;
+      font-size: 12px;
+      line-height: 21px;
+      box-sizing: border-box;
+      width: 300px;
+      transition: all 0.3s;
+      &:focus {
+        border: 1.5px solid #E6E9EC;
+      }
+
+      @media (max-width: 1100px) {
+        width: 150px;
+      }
+    }
+
+    img {
+      position: absolute;
+      right: 18px;
+      top: 10px;
+      width: 13px;
+      height: 13px;
+    }
+
+    &.mobile-search-block {
+      input {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+    }
+
+  }
+}

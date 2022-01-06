@@ -1,0 +1,133 @@
+/*
+login
+*/
+
+.login {
+  background: #141416;
+  padding: 60px 0 73px 0;
+
+  .content {
+    padding-top: 68px;
+
+    .player-section {
+      > div {
+        position: relative;
+        width: 90%;
+        height: 100%;
+        @media (max-width: 1280px) {
+          width: 100%;
+        }
+        @media (max-width: 960px) {
+          height: 350px;
+        }
+
+        // .audio-player {
+        //   width: calc(100% - 20px);
+        //   left: 10px;
+        //   position: absolute;
+        //   bottom: 20px;
+        //   height: 40px;
+        //   background: #141416;
+        //   border-radius: 26px;
+        //   display: flex;
+        //   align-items: center;
+        //   justify-content: space-between;
+        //   padding: 0px 20px;
+        //   box-sizing: border-box;
+
+        //   .play-icon {
+        //     width: 18px;
+        //     height: 21px;
+        //     cursor: pointer;
+        //     margin-right: 20px;
+        //   }
+
+        //   .play-bar {
+        //     height: 8px;
+        //     flex-grow: 1;
+        //     border-radius: 5px;
+        //     background: #363945;
+
+        //     > div {
+        //       height: 8px;
+        //       background: #3873FF;
+        //       border-radius: 5px;
+        //     }
+        //   }
+
+        //   .time {
+        //     font-family: 'Poppins', sans-serif;
+        //     font-weight: 500;
+        //     font-size: 14px;
+        //     color: #FFFFFF;
+        //     margin: 0 9px 0 12px;
+        //   }
+
+        //   .volumn-icon {
+        //     width: 24px;
+        //     height: 16px;
+        //     cursor: pointer;
+        //     margin-right: 25px;
+        //   }
+
+        //   .list-icon {
+        //     width: 20px;
+        //     height: 20px;
+        //     cursor: pointer;
+        //   }
+        // }
+        iframe {
+          border-radius: 25px;
+        }
+      }
+    }
+
+    .login-content {
+      > form {
+        padding: 10px 0;
+
+        .form-control {
+          display: flex;
+          flex-direction: column;
+          input {
+            width: 80%;
+
+            @media (max-width: 768px) {
+              width: 100%;
+            }
+          }
+        }
+        
+        
+        .title {
+          font-weight: 600;
+          font-size: 30px;
+          color: #FFFFFF;
+          margin-bottom: 37px;
+        }
+
+        .fill-btn {
+          margin-top: 40px;
+          border-radius: 20px;
+          width: 182px;
+          height: 48px;
+          span {
+            font-weight: 600;
+          }
+        }
+
+        .forgot-password {
+          margin-top: 38px;
+          color: #646A79;
+          text-decoration-line: underline;
+          text-transform: initial;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+
+    }
+  }
+
+}

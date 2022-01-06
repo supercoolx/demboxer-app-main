@@ -1,0 +1,37 @@
+/*
+Filter PopUp
+*/
+.customize-popup {
+  .popup-content {
+    .sort-by {
+      margin: 38px 0 18px ;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #646A79;
+    }
+
+    form {
+      .custom-check-box {
+        margin-bottom: 28px;
+        > p {
+          color: #FFFFFF;
+          margin-left: 21px;
+        }
+      }
+
+      .submit-btn-section {
+        padding-top: 25px;
+
+        .fill-btn {
+          width: 100%;
+          height: 48px;
+          border-radius: 24px;
+          margin-bottom: 8px;
+        }
+      }
+      
+    }
+  }
+}

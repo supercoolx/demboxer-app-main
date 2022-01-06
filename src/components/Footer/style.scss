@@ -1,0 +1,195 @@
+/*
+  Footer
+*/
+.footer {
+  background: #141416;
+  font-family: 'Poppins', sans-serif;
+  border-top: 1px solid #292B33;
+  
+  .container {
+    padding: 79px 24px 34px 24px;
+
+    .title {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+
+    .logo-section {
+      .description {
+        font-family: 'Poppins', sans-serif;
+        margin-top: 31px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        @media (max-width: 576px) {
+          margin-bottom: 30px;
+        }
+      }
+      .logo-icon-list {
+        display: flex;
+        align-items: center;
+        span {
+          font-family: 'Poppins', sans-serif;
+          margin-left: 30px;
+          color: white;
+          font-size: 23px;
+        }
+      }
+    }
+
+    .menu-section {
+      padding-top: 5px;
+      display: flex;
+      justify-content: center;
+      @media (max-width: 960px) {
+        justify-content: flex-start;
+      }
+
+      > div {
+        display: inline-block;
+      }
+
+      .menu-list {
+        margin-top: 39px;
+        display: flex;
+        flex-direction: column;
+        a {
+          font-family: 'Poppins', sans-serif;
+          margin-bottom: 23px;
+          font-weight: 600;
+          font-size: 13px;
+          color: #777E91;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .stay-connected-section {
+      padding-top: 5px;
+      .email-input-section {
+        margin-top: 39px;
+        .description {
+          font-family: 'Poppins', sans-serif;
+          font-weight: normal;
+          font-size: 14px;
+          color: #FFFFFF;
+        }
+
+        .email-input-box {
+          box-sizing: border-box;
+          margin-top: 25px;
+          border: 3px solid #E6E8EC;
+          border-radius: 50px;
+          height: 52px;
+          display: flex;
+          align-items: center;
+          padding-left: 20px;
+
+          .email-input {
+            color: #777E91;
+            font-weight: 500;
+            font-size: 13px;
+            width: 100%;
+            input {
+              font-family: 'Poppins', sans-serif;
+              &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #777E91;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 13px;
+                opacity: 1;
+              }
+              &::-moz-placeholder { /* Firefox 19+ */
+                color: #777E91;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 13px;
+                opacity: 1;
+              }
+              &:-ms-input-placeholder { /* IE 10+ */
+                color: #777E91;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 13px;
+                opacity: 1;
+              }
+              &:-moz-placeholder { /* Firefox 18- */
+                color: #777E91;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 13px;
+                opacity: 1;
+              }
+            }
+            
+          }
+
+          button {
+            background: #3772FF;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            margin: 10px;
+
+            svg {
+              color: white;
+            }
+          }
+        }
+        .subscribe-form-sending{
+          color:#FFFFFF;
+          text-align: center;
+        }
+        
+      }
+    }
+
+    .divider {
+      margin-top: 46px;
+      width: 100%;
+      height: 1px;
+      background: #E6E8EC;
+    }
+
+    .copylight-section {
+      margin-top: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+
+      @media (max-width: 576px) {
+        flex-direction: column;
+      }
+
+      .copylight {
+        font-size: 12px;
+        color: #646A79;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .cookies-bar {
+        color: #FFFFFF;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        .accept {
+          font-family: 'Poppins', sans-serif;
+          margin-left: 20px;
+          color: #3772FF;
+          font-size: 12px;
+          cursor: pointer;
+          transition: all 0.3s;
+
+          &:hover {
+            font-weight: 500;
+          }
+        }
+        @media (max-width: 576px) {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

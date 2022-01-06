@@ -1,0 +1,17 @@
+.AllowButton {
+  background: #5469d4;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.NotAllowedButton {
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+/*  */

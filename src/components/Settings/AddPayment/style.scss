@@ -1,0 +1,67 @@
+/*
+Add Payment
+*/
+
+.add-payment {
+  padding-bottom: 65px;
+  
+  .pay-with-card {
+
+    .title {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 30px;
+      color: #FFFFFF;
+    }
+
+    .description {
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      font-size: 15px;
+      color: #777E90;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+      margin-bottom: 40px;
+    }
+
+    form {
+      margin-bottom: 30px;
+      .form-control {
+        margin-bottom: 25px !important;
+      }
+
+      .make-payment-btn {
+        padding-top: 5px;
+
+        button {
+          width: 160px;
+          border-radius: 24px;
+        }
+      }
+      
+    }
+  }
+
+  .add-card {
+    .add-card-btn {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+
+      button {
+        border-radius: 24px;
+        width: 140px;
+        height: 48px;
+
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  
+  input {
+    height: 48px;
+    border-radius: 14px !important;
+  }
+}
